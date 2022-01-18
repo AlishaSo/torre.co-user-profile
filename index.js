@@ -33,11 +33,15 @@ function getUserSkills(userInfo) {
       interestedSkillsList.push(strength.name);
 });
 
-creatMasterSkillsButtons(masteredSkillsList);
+creatMasterSkillsButtons(masteredSkillsList, 'master');
+creatMasterSkillsButtons(expertSkillsList, 'expert');
+creatMasterSkillsButtons(proficientSkillsList, 'proficient');
+creatMasterSkillsButtons(noviceSkillsList, 'novice');
+creatMasterSkillsButtons(interestedSkillsList, 'no-experience-interested');
 }
 
 function createSkillsButtons(skillsArr, category) {
-  if(skillsArr) {
+  if(skillsArr.length > 0) {
     skillsArr.forEach(skill => {
         let skillNoSpace = removeSpace(skill).toLowerCase();
         let skillBtn = document.createElement('button');
@@ -82,22 +86,6 @@ function createSkillsButtons(skillsArr, category) {
         break;
     }
   }
-}
-
-function createExpertSkillsButtons(expertSkillsArr) {
-    if(expertSkillsArr) {
-        expertSkillsArr.forEach(skill => {
-            let skillNoSpace = removeSpace(skill).toLowerCase();
-            let skillBtn = document.createElement('button');
-            skillBtn.setAttribute('id', skillNoSpace);
-            skillBtn.classList.add('expert-skill-btn','btn');
-            // console.log(skillBtn)
-            expertSkillsDiv.appendChild()
-        })
-    }
-    else {
-        expertSkillsDiv.style.display = 'none';
-    }
 }
 
 function displayUserSkills() {
