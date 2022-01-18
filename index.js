@@ -36,20 +36,68 @@ function getUserSkills(userInfo) {
 creatMasterSkillsButtons(masteredSkillsList);
 }
 
-function creatMasterSkillsButtons(masterSkillsArr) {
-  if(masterSkillsArr) {
-      masterSkillsArr.forEach(skill => {
+function createSkillsButtons(skillsArr, category) {
+  if(skillsArr) {
+    skillsArr.forEach(skill => {
         let skillNoSpace = removeSpace(skill).toLowerCase();
         let skillBtn = document.createElement('button');
         skillBtn.textContent = skill;
         skillBtn.setAttribute('id', skillNoSpace);
-        skillBtn.classList.add('master-skill-btn','btn');
-        masteredSkillsDiv.appendChild(skillBtn);
-      })
+        skillBtn.classList.add(`${category}-skill-btn`,'btn');
+        switch(category) {
+            case 'master':
+                masteredSkillsDiv.appendChild(skillBtn);
+                break;
+            case 'expert':
+                expertSkillsDiv.appendChild(skillBtn);
+                break;
+            case 'proficient':
+                proficientSkillsDiv.appendChild(skillBtn);
+                break;
+            case 'novice':
+                noviceSkillsDiv.appendChild(skillBtn);
+                break;
+            case 'no-experience-interested':
+                interestedSkillsDiv.appendChild(skillBtn);
+                break;
+            }
+      });
   }
   else {
-    masteredSkillsDiv.style.display = 'none';
+    switch(category) {
+      case 'master':
+        masteredSkillsDiv.style.display = 'none';
+        break;
+      case 'expert':
+        expertSkillsDiv.style.display = 'none';
+        break;
+      case 'proficient':
+        proficientSkillsDiv.style.display = 'none';
+        break;
+      case 'novice':
+        noviceSkillsDiv.style.display = 'none';
+        break;
+      case 'no-experience-interested':
+        interestedSkillsDiv.style.display = 'none';
+        break;
+    }
   }
+}
+
+function createExpertSkillsButtons(expertSkillsArr) {
+    if(expertSkillsArr) {
+        expertSkillsArr.forEach(skill => {
+            let skillNoSpace = removeSpace(skill).toLowerCase();
+            let skillBtn = document.createElement('button');
+            skillBtn.setAttribute('id', skillNoSpace);
+            skillBtn.classList.add('expert-skill-btn','btn');
+            // console.log(skillBtn)
+            expertSkillsDiv.appendChild()
+        })
+    }
+    else {
+        expertSkillsDiv.style.display = 'none';
+    }
 }
 
 function displayUserSkills() {
