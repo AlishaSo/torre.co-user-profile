@@ -6,12 +6,37 @@ const proficientSkillsDiv = document.querySelector('.proficient-skills');
 const noviceSkillsDiv = document.querySelector('.novice-skills');
 const interestedSkillsDiv = document.querySelector('.interested-in-skills');
 
-function displayUserSkills(userInfo) {
-  profileImgEl.innerHTML = `<img src='${userInfo.pictureThumbnail}' alt='${userInfo.name}\'s profile picture'/>`;
-  userNameEl.textContent = `${userInfo.name}`;
+function getUserSkills(userInfo) {
+  let masteredSkillsList = [];
+  profileImgEl.innerHTML = `<img src='${userInfo.person.pictureThumbnail}' alt='${userInfo.name}      \'s profile picture'/>`;
+  userNameEl.textContent = `${userInfo.person.name}`;
 
-  let masteredSkillsList = userInfo.strengths.filter(strength => strength.proficiency = 'master');
-  console.log(masteredSkillsList)
+
+userInfo.strengths.forEach(strength => {
+    if(strength.proficiency === 'master')
+      masteredSkillsList.push(strength.name)
+});
+
+getMasterSkillsHtml(masteredSkillsList)
+//   console.log(masteredSkillsList)
+}
+
+function getMasterSkillsHtml(masterSkillsArr) {
+  if(masterSkillsArr) {
+      masterSkillsArr.forEach(skill => {
+          // console.log(skill)
+          let skillBtn = document.createElement('button');
+          skillBtn.setAttribute('id', skill);
+          skillBtn.classList.add(`${skill}-btn`,'btn')
+          // console.log(skillBtn)
+      })
+  }
+  else {
+      masteredSkillsDiv.style.display = 'none';
+  }
+}
+
+function displayUserSkills() {
 }
 
 fetch(' https://bio.torre.co/api/bios/sorianoalisha')
