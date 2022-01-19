@@ -174,7 +174,7 @@ function expandSkill(event, userInfoObj) {
       closeBtn.addEventListener('click', e => closeModal(modal));
     }
   });
-  expertSkillsDiv.appendChild(modal);
+  document.body.appendChild(modal);
 }
 
 fetch(fetchUrl)
