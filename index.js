@@ -1,4 +1,4 @@
-const fetchUrl = 'https://alishaso.github.io/sorianoalisha.json'; //'https://torre.bio/api/bios/sorianoalisha';
+const fetchUrl = 'sorianoalisha.json'; //'https://torre.bio/api/bios/sorianoalisha';
 const profileImgEl = document.querySelector('.profile-img');
 const userNameEl = document.querySelector('.user-name');
 const masteredSkillsDiv = document.querySelector('.mastered-skills');
@@ -25,8 +25,15 @@ function removeSpace(string) {
   return string;
 }
 
+function addSpace(string) {
+    if(/[-]/g.test(string)) {
+        string = string.split(/[-]+/).join(' ')
+    }
+    string = string.charAt(0).toUpperCase() + string.slice(1);
+    return string;
+}
+
 function getUserSkills(userInfo) {
-  let masteredSkillsList = [];
   profileImgEl.innerHTML = `<img src='${userInfo.person.pictureThumbnail}' alt='${userInfo.name}\'s profile picture'/>`;
   userNameEl.textContent = `${userInfo.person.name}`;
 
@@ -44,11 +51,11 @@ function getUserSkills(userInfo) {
       interestedSkillsList.push(strength.name);
   });
 
-  creatMasterSkillsButtons(masteredSkillsList, 'master');
-  creatMasterSkillsButtons(expertSkillsList, 'expert');
-  creatMasterSkillsButtons(proficientSkillsList, 'proficient');
-  creatMasterSkillsButtons(noviceSkillsList, 'novice');
-  creatMasterSkillsButtons(interestedSkillsList, 'no-experience-interested');
+  createSkillsButtons(masteredSkillsList, 'master');
+  createSkillsButtons(expertSkillsList, 'expert');
+  createSkillsButtons(proficientSkillsList, 'proficient');
+  createSkillsButtons(noviceSkillsList, 'novice');
+  createSkillsButtons(interestedSkillsList, 'no-experience-interested');
 }
 
 function createSkillsButtons(skillsArr, category) {
@@ -61,18 +68,23 @@ function createSkillsButtons(skillsArr, category) {
       skillBtn.classList.add(`${category}-skill-btn`,'btn');
       switch(category) {
         case 'master':
+          masterSkillBtns.push(skillBtn);
           masteredSkillsDiv.appendChild(skillBtn);
           break;
         case 'expert':
+          expertSkillBtns.push(skillBtn);
           expertSkillsDiv.appendChild(skillBtn);
           break;
         case 'proficient':
+          proficientSkillBtns.push(skillBtn);
           proficientSkillsDiv.appendChild(skillBtn);
           break;
         case 'novice':
+          noviceSkillBtns.push(skillBtn);
           noviceSkillsDiv.appendChild(skillBtn);
           break;
         case 'no-experience-interested':
+          interestedSkillBtns.push(skillBtn);
           interestedSkillsDiv.appendChild(skillBtn);
           break;
       }
@@ -101,20 +113,21 @@ function createSkillsButtons(skillsArr, category) {
 
 function btnAddEvent() {
   masterSkillBtns.forEach(btn => btn.addEventListener('click', e => expandSkill(e, userInfo)));
-  expertSkillBtns.forEach(btn => btn.addEventListener('click', e => expandSkill(e, userInfo)));
+  proficientSkillBtns.forEach(btn => btn.addEventListener('click', e => expandSkill(e, userInfo)));
   expertSkillBtns.forEach(btn => btn.addEventListener('click', e => expandSkill(e, userInfo)));
   noviceSkillBtns.forEach(btn => btn.addEventListener('click', e => expandSkill(e, userInfo)));
   interestedSkillBtns.forEach(btn => btn.addEventListener('click', e => expandSkill(e, userInfo)));
 }
 
 function closeModal(modal) {
-    modal.classList.remove('show');
+  modal.classList.remove('show');
 }
 
 function expandSkill(event, userInfoObj) {
   let modal = document.createElement('div');
   modal.classList.add('modal', 'show');
   let skillName = addSpace(event.currentTarget.getAttribute('id'));
+
   if(skillName === 'Git') {
     skillName = 'GIT';
   }
@@ -123,6 +136,12 @@ function expandSkill(event, userInfoObj) {
   }
   else if(skillName === 'Html5') {
     skillName = 'HTML5';
+  }
+  else if(skillName === 'Strategic thinking') {
+    skillName = 'Strategic Thinking';
+  }
+  else if(skillName === 'Full stack development') {
+    skillName = 'Full Stack development';
   }
   else if(skillName === 'Sql') {
     skillName = 'SQL';
