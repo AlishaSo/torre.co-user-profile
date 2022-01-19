@@ -135,10 +135,10 @@ h2 {
 .profile-img:before {
   position: absolute;
   content: '';
-  top: 4px;  /* border width */
-  left: 4px;  /* border width */
-  height: calc(100% - 8px);  /* 100% - (2 * border width) */
-  width: calc(100% - 8px);  /* 100% - (2 * border width) */
+  top: 4px;
+  left: 4px;
+  height: calc(100% - 8px);
+  width: calc(100% - 8px);
 }
 
 .profile-img, .profile-img:before {
@@ -151,7 +151,7 @@ h2 {
   border: 1px solid lightgray;
   border-radius: 50px;
   padding: .5em .75em;
-  margin: .15em;;
+  margin: .15em;
   background: transparent;
   color: var(--btn-font-color);
   font-weight: 200;
@@ -167,7 +167,13 @@ h2 {
 }
 
 .modal.show {
-  display: unset;
+  display: grid;
+  gap: 0 1em;
+  grid-template: repeat(4, auto) / repeat(2, auto);
+  grid-template-areas: 
+      's . . .'
+      'sName sName sName sName'
+      'r r w w';
   position: absolute;
   background-color: var(--modal-bg-color);
   top: calc(100px + 10vh);
@@ -188,4 +194,23 @@ h2 {
 
 #close-modal:hover {
   color: var(--modal-close-hover-color);
+}
+
+.modal + p {
+    grid-area: s;
+    margin-bottom: 0;
+}
+
+.modal h2 {
+    font-size: 1.1rem;
+    grid-area: sName;
+    margin-top: -15px;
+}
+
+.recommendations {
+    grid-area: r;
+}
+
+.rec-weight {
+    grid-area: w;
 }

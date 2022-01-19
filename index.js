@@ -124,6 +124,14 @@ function expandSkill(event, userInfoObj) {
       modal.innerHTML = `
         <p>Skill</p>
         <h2>${s.name}</h2>
+        <div class='recommendations'>
+          ${s.recommendations}<br>
+          recommendations
+        </div>
+        <div class='rec-weight'>
+          ${s.weight}
+          recommendation weight
+        </div>
         `;
       let closeBtn = document.createElement('button');
       closeBtn.setAttribute('id', 'close-modal');
