@@ -1,0 +1,1899 @@
+{
+  "person": {
+    "professionalHeadline": "Front End Developer",
+    "completion": 0.9375,
+    "showPhone": false,
+    "created": "2021-12-29T17:12:06Z",
+    "verified": true,
+    "flags": {
+      "benefits": false,
+      "canary": false,
+      "enlauSource": false,
+      "fake": false,
+      "featureDiscovery": true,
+      "firstSignalSent": true,
+      "signalsOnboardingCompleted": false,
+      "importingLinkedin": false,
+      "onBoarded": true,
+      "remoter": true,
+      "signalsFeatureDiscovery": true,
+      "importingLinkedinRecommendations": false,
+      "contactsImported": false,
+      "appContactsImported": false,
+      "genomeCompletionAcknowledged": true,
+      "cvImported": true,
+      "communityCreatedPrivate": false,
+      "communityCreatedClaimed": false,
+      "connectBenefitsViewed": true
+    },
+    "weight": 0,
+    "ggId": "1243164",
+    "completionStage": {
+      "stage": 3,
+      "progress": 0.8
+    },
+    "locale": "en",
+    "subjectId": 1243164,
+    "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1640800135/origin/starrgate/users/profile_82a4e504bc2fc31e8b4f6b33dc56f744ab479260.jpg",
+    "hasEmail": true,
+    "isTest": false,
+    "name": "Alisha Soriano",
+    "links": [
+      {
+        "id": "vN8649ej",
+        "name": "github",
+        "address": "https://github.com/AlishaSo"
+      },
+      {
+        "id": "0yznX9gy",
+        "name": "linkedin",
+        "address": "https://www.linkedin.com/in/alisha-soriano"
+      }
+    ],
+    "location": {
+      "name": "Massachusetts, United States",
+      "shortName": "Massachusetts, United States",
+      "country": "United States",
+      "latitude": 42.6915,
+      "longitude": -71.1579,
+      "timezone": "America/New_York",
+      "timezoneOffSet": -18000000,
+      "placeId": "ChIJ_b9z6W1l44kRHA2DVTbQxkU"
+    },
+    "theme": "bio",
+    "id": "eynAWOLj",
+    "pictureThumbnail": "https://res.cloudinary.com/torre-technologies-co/image/upload/c_fill,h_150,w_150/v1640800135/origin/starrgate/users/profile_82a4e504bc2fc31e8b4f6b33dc56f744ab479260.jpg",
+    "claimant": false,
+    "publicId": "sorianoalisha"
+  },
+  "stats": {
+    "strengths": 39,
+    "publications": 1,
+    "awards": 1,
+    "education": 1,
+    "jobs": 3,
+    "projects": 2
+  },
+  "strengths": [
+    {
+      "id": "NaBnm6DM",
+      "code": 194792,
+      "name": "Material design",
+      "proficiency": "no-experience-interested",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2022-01-14T22:27:15"
+    },
+    {
+      "id": "NKGwWpVN",
+      "code": 32043,
+      "name": "Kotlin",
+      "proficiency": "no-experience-interested",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2022-01-14T22:26:31"
+    },
+    {
+      "id": "NxzR9P3j",
+      "code": 6085401,
+      "name": "Software architecture",
+      "proficiency": "expert",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2022-01-14T22:26:29"
+    },
+    {
+      "id": "y0z8VWRM",
+      "code": 32059,
+      "name": "Scala",
+      "proficiency": "no-experience-interested",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2022-01-14T22:26:24"
+    },
+    {
+      "id": "yYon0x6M",
+      "code": 56482,
+      "name": "Strategic Thinking",
+      "proficiency": "expert",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2022-01-14T22:26:21"
+    },
+    {
+      "id": "NGZ6z36y",
+      "code": 32590,
+      "name": "TypeScript",
+      "proficiency": "no-experience-interested",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2022-01-14T22:26:14"
+    },
+    {
+      "id": "NPGLgXay",
+      "code": 23826,
+      "name": "Vue.js",
+      "proficiency": "no-experience-interested",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2022-01-14T22:26:09"
+    },
+    {
+      "id": "yDK5g13j",
+      "code": 6124164,
+      "name": "Full Stack development",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2022-01-14T22:25:56"
+    },
+    {
+      "id": "y1O23w6M",
+      "code": 46249,
+      "name": "Mentorship",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:22:20"
+    },
+    {
+      "id": "MRYPAg0N",
+      "code": 6030,
+      "name": "Security",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:22:20"
+    },
+    {
+      "id": "yolJGPwN",
+      "code": 431480,
+      "name": "Remote",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:22:20"
+    },
+    {
+      "id": "ynrqXDby",
+      "code": 56356,
+      "name": "Hardware",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:22:20"
+    },
+    {
+      "id": "NVY3JW7y",
+      "code": 30356,
+      "name": "Linux",
+      "proficiency": "novice",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:22:20"
+    },
+    {
+      "id": "MBD2ZGAy",
+      "code": 217727,
+      "name": "Computer science",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:22:20"
+    },
+    {
+      "id": "M9E26q9M",
+      "code": 61819,
+      "name": "Science",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:22:20"
+    },
+    {
+      "id": "MvrPnl3M",
+      "code": 34500,
+      "name": "Scrum",
+      "proficiency": "novice",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:27:32"
+    },
+    {
+      "id": "NxzYbR3j",
+      "code": 12135,
+      "name": "Editing",
+      "proficiency": "no-experience-interested",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:17:03"
+    },
+    {
+      "id": "yYoAmn6M",
+      "code": 55747,
+      "name": "Writing",
+      "proficiency": "no-experience-interested",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:59"
+    },
+    {
+      "id": "yDK3m53j",
+      "code": 40125,
+      "name": "Copywriting",
+      "proficiency": "no-experience-interested",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:54"
+    },
+    {
+      "id": "N8JkGxej",
+      "code": 55667,
+      "name": "Translation",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:52"
+    },
+    {
+      "id": "yJeq8woj",
+      "code": 46248,
+      "name": "Mentoring",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:48"
+    },
+    {
+      "id": "MelG6nEN",
+      "code": 54169,
+      "name": "Tutoring",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:43"
+    },
+    {
+      "id": "yZmp7LGj",
+      "code": 18315,
+      "name": "Coaching",
+      "proficiency": "no-experience-interested",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:34"
+    },
+    {
+      "id": "MqAX9m8M",
+      "code": 521,
+      "name": "Engineering",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:30"
+    },
+    {
+      "id": "MvrPnqxM",
+      "code": 52274,
+      "name": "Software engineering",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:28"
+    },
+    {
+      "id": "MelG6gKN",
+      "code": 37426,
+      "name": "Agile",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:26"
+    },
+    {
+      "id": "M3ed7ary",
+      "code": 5983,
+      "name": "Programming",
+      "proficiency": "expert",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:23"
+    },
+    {
+      "id": "ykrA6Pmj",
+      "code": 18318,
+      "name": "HTML5",
+      "proficiency": "expert",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:21"
+    },
+    {
+      "id": "jlEpJGqy",
+      "code": 61332,
+      "name": "Software development",
+      "proficiency": "expert",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:19"
+    },
+    {
+      "id": "MBD2ZQXy",
+      "code": 55906,
+      "name": "Java",
+      "proficiency": "expert",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:17"
+    },
+    {
+      "id": "ynrqX0oy",
+      "code": 9486,
+      "name": "GIT",
+      "proficiency": "expert",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:15"
+    },
+    {
+      "id": "MRYPAE5N",
+      "code": 59162,
+      "name": "SQL",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:12"
+    },
+    {
+      "id": "jrQ87e0M",
+      "code": 18319,
+      "name": "Javascript",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:10"
+    },
+    {
+      "id": "y5Q2Owby",
+      "code": 18317,
+      "name": "CSS3",
+      "proficiency": "expert",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:06"
+    },
+    {
+      "id": "yQeDYEny",
+      "code": 18312,
+      "name": "C",
+      "proficiency": "expert",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:03"
+    },
+    {
+      "id": "MEem2Q1M",
+      "code": 55516,
+      "name": "Front end development",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:16:00"
+    },
+    {
+      "id": "NxzYbgrj",
+      "code": 55799,
+      "name": "MySQL",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:15:58"
+    },
+    {
+      "id": "NGZAkOay",
+      "code": 56891,
+      "name": "Web Development",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:15:51"
+    },
+    {
+      "id": "MWwkZE0M",
+      "code": 32056,
+      "name": "Python",
+      "proficiency": "novice",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-12-29T17:15:47"
+    }
+  ],
+  "interests": [],
+  "experiences": [
+    {
+      "id": "mjlXd1aj",
+      "category": "awards",
+      "name": "Earned Top Gun award for achieving the highest percentage over the monthly goal",
+      "organizations": [],
+      "responsibilities": [],
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    },
+    {
+      "id": "ZNOBOkry",
+      "category": "education",
+      "name": "B.S. in Computer Science Computer Science",
+      "organizations": [
+        {
+          "id": 787418,
+          "name": "University of Massachusetts Dartmouth",
+          "publicId": "UniversityOfMassachusettsDartmouth"
+        }
+      ],
+      "responsibilities": [],
+      "toYear": "2018",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    },
+    {
+      "id": "9MBW1Laj",
+      "category": "jobs",
+      "name": "Facilities Specialist",
+      "organizations": [
+        {
+          "id": 1020169,
+          "name": "security hardware services",
+          "publicId": "SecurityHardwareServices"
+        }
+      ],
+      "responsibilities": [
+        "Coordinate security hardware services for big-name commercial stores",
+        "Facilitate product order placement between stores and distribution partner",
+        "Job completion rate has been improved by 70%"
+      ],
+      "fromMonth": "July",
+      "fromYear": "2019",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    },
+    {
+      "id": "nM4DrrGM",
+      "category": "publications",
+      "name": "https://alishaso.github.io/CRL-final-challenge/",
+      "organizations": [],
+      "responsibilities": [],
+      "fromMonth": "December",
+      "fromYear": "2021",
+      "toMonth": "December",
+      "toYear": "2021",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    },
+    {
+      "id": "VjwnddrM",
+      "category": "projects",
+      "name": "AIS Data Archiver Developer",
+      "organizations": [
+        {
+          "id": 787418,
+          "name": "University of Massachusetts Dartmouth",
+          "publicId": "UniversityOfMassachusettsDartmouth"
+        }
+      ],
+      "responsibilities": [
+        "Created MySQL database, and implemented necessary logic between it and the Graphical User Interface"
+      ],
+      "fromMonth": "September",
+      "fromYear": "2017",
+      "toMonth": "April",
+      "toYear": "2018",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    },
+    {
+      "id": "qy0krQ1j",
+      "category": "projects",
+      "name": "Conquering Responsive Layouts Final Challenge",
+      "organizations": [],
+      "responsibilities": [],
+      "fromMonth": "December",
+      "fromYear": "2021",
+      "toMonth": "December",
+      "toYear": "2021",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 2,
+      "strengths": []
+    },
+    {
+      "id": "xM9ArkWM",
+      "category": "jobs",
+      "name": "C Peer Mentor",
+      "organizations": [
+        {
+          "id": 787418,
+          "name": "University of Massachusetts Dartmouth",
+          "publicId": "UniversityOfMassachusettsDartmouth"
+        }
+      ],
+      "responsibilities": [
+        "Supported 20+ students with Java-related concepts",
+        "Improved Individual self-sufficiency rate by 50%"
+      ],
+      "fromMonth": "January",
+      "fromYear": "2017",
+      "toMonth": "April",
+      "toYear": "2017",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 2,
+      "strengths": []
+    },
+    {
+      "id": "WNVbOl1N",
+      "category": "jobs",
+      "name": "Java Peer Mentor",
+      "organizations": [
+        {
+          "id": 787418,
+          "name": "University of Massachusetts Dartmouth",
+          "publicId": "UniversityOfMassachusettsDartmouth"
+        }
+      ],
+      "responsibilities": [
+        "Helped students with code debugging and proper syntax for Linux commands",
+        "Grew student subject-understanding level by 60%"
+      ],
+      "fromMonth": "September",
+      "fromYear": "2016",
+      "toMonth": "April",
+      "toYear": "2018",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 3,
+      "strengths": []
+    }
+  ],
+  "awards": [
+    {
+      "id": "mjlXd1aj",
+      "category": "awards",
+      "name": "Earned Top Gun award for achieving the highest percentage over the monthly goal",
+      "organizations": [],
+      "responsibilities": [],
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    }
+  ],
+  "jobs": [
+    {
+      "id": "9MBW1Laj",
+      "category": "jobs",
+      "name": "Facilities Specialist",
+      "organizations": [
+        {
+          "id": 1020169,
+          "name": "security hardware services",
+          "publicId": "SecurityHardwareServices"
+        }
+      ],
+      "responsibilities": [
+        "Coordinate security hardware services for big-name commercial stores",
+        "Facilitate product order placement between stores and distribution partner",
+        "Job completion rate has been improved by 70%"
+      ],
+      "fromMonth": "July",
+      "fromYear": "2019",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    },
+    {
+      "id": "xM9ArkWM",
+      "category": "jobs",
+      "name": "C Peer Mentor",
+      "organizations": [
+        {
+          "id": 787418,
+          "name": "University of Massachusetts Dartmouth",
+          "publicId": "UniversityOfMassachusettsDartmouth"
+        }
+      ],
+      "responsibilities": [
+        "Supported 20+ students with Java-related concepts",
+        "Improved Individual self-sufficiency rate by 50%"
+      ],
+      "fromMonth": "January",
+      "fromYear": "2017",
+      "toMonth": "April",
+      "toYear": "2017",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 2,
+      "strengths": []
+    },
+    {
+      "id": "WNVbOl1N",
+      "category": "jobs",
+      "name": "Java Peer Mentor",
+      "organizations": [
+        {
+          "id": 787418,
+          "name": "University of Massachusetts Dartmouth",
+          "publicId": "UniversityOfMassachusettsDartmouth"
+        }
+      ],
+      "responsibilities": [
+        "Helped students with code debugging and proper syntax for Linux commands",
+        "Grew student subject-understanding level by 60%"
+      ],
+      "fromMonth": "September",
+      "fromYear": "2016",
+      "toMonth": "April",
+      "toYear": "2018",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 3,
+      "strengths": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "VjwnddrM",
+      "category": "projects",
+      "name": "AIS Data Archiver Developer",
+      "organizations": [
+        {
+          "id": 787418,
+          "name": "University of Massachusetts Dartmouth",
+          "publicId": "UniversityOfMassachusettsDartmouth"
+        }
+      ],
+      "responsibilities": [
+        "Created MySQL database, and implemented necessary logic between it and the Graphical User Interface"
+      ],
+      "fromMonth": "September",
+      "fromYear": "2017",
+      "toMonth": "April",
+      "toYear": "2018",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    },
+    {
+      "id": "qy0krQ1j",
+      "category": "projects",
+      "name": "Conquering Responsive Layouts Final Challenge",
+      "organizations": [],
+      "responsibilities": [],
+      "fromMonth": "December",
+      "fromYear": "2021",
+      "toMonth": "December",
+      "toYear": "2021",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 2,
+      "strengths": []
+    }
+  ],
+  "publications": [
+    {
+      "id": "nM4DrrGM",
+      "category": "publications",
+      "name": "https://alishaso.github.io/CRL-final-challenge/",
+      "organizations": [],
+      "responsibilities": [],
+      "fromMonth": "December",
+      "fromYear": "2021",
+      "toMonth": "December",
+      "toYear": "2021",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    }
+  ],
+  "education": [
+    {
+      "id": "ZNOBOkry",
+      "category": "education",
+      "name": "B.S. in Computer Science Computer Science",
+      "organizations": [
+        {
+          "id": 787418,
+          "name": "University of Massachusetts Dartmouth",
+          "publicId": "UniversityOfMassachusettsDartmouth"
+        }
+      ],
+      "responsibilities": [],
+      "toYear": "2018",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "MglW924j",
+      "interest": "jobs-full-time",
+      "field": "active",
+      "data": true
+    },
+    {
+      "id": "yX39l85j",
+      "interest": "jobs-full-time",
+      "field": "private",
+      "data": false
+    },
+    {
+      "id": "N8GqERVy",
+      "interest": "gigs",
+      "field": "active",
+      "data": true
+    },
+    {
+      "id": "yzlbVooM",
+      "interest": "gigs",
+      "field": "private",
+      "data": false
+    },
+    {
+      "id": "MWZB9XzN",
+      "interest": "internships",
+      "field": "active",
+      "data": true
+    },
+    {
+      "id": "yDmxVRzN",
+      "interest": "internships",
+      "field": "private",
+      "data": false
+    },
+    {
+      "id": "NPmkVeAM",
+      "interest": "hiring",
+      "field": "active",
+      "data": false
+    },
+    {
+      "id": "M4GGQOkN",
+      "interest": "internships",
+      "field": "desirable-compensation-currency",
+      "data": "USD$"
+    },
+    {
+      "id": "yQGGP3nM",
+      "interest": "internships",
+      "field": "desirable-compensation-periodicity",
+      "data": "hourly"
+    },
+    {
+      "id": "M2GGEk2j",
+      "interest": "internships",
+      "field": "desirable-compensation-amount",
+      "data": 20
+    },
+    {
+      "id": "j6KKEOQy",
+      "interest": "internships",
+      "field": "desirable-compensation-publicly-visible",
+      "data": true
+    },
+    {
+      "id": "MLBBW0by",
+      "interest": "jobs",
+      "field": "desirable-compensation-currency",
+      "data": "USD$"
+    },
+    {
+      "id": "y599EDby",
+      "interest": "jobs",
+      "field": "desirable-compensation-periodicity",
+      "data": "hourly"
+    },
+    {
+      "id": "NaaaJroN",
+      "interest": "jobs",
+      "field": "desirable-compensation-amount",
+      "data": 29
+    },
+    {
+      "id": "jr66bJ0j",
+      "interest": "jobs",
+      "field": "desirable-compensation-publicly-visible",
+      "data": true
+    },
+    {
+      "id": "yb88bo9M",
+      "interest": "gigs",
+      "field": "desirable-compensation-currency",
+      "data": "USD$"
+    },
+    {
+      "id": "y1nnW7KN",
+      "interest": "gigs",
+      "field": "desirable-compensation-periodicity",
+      "data": "hourly"
+    },
+    {
+      "id": "MRGG0m5j",
+      "interest": "gigs",
+      "field": "desirable-compensation-amount",
+      "data": 29
+    },
+    {
+      "id": "yommOpdM",
+      "interest": "gigs",
+      "field": "desirable-compensation-publicly-visible",
+      "data": true
+    }
+  ],
+  "languages": [
+    {
+      "code": "en",
+      "language": "English",
+      "fluency": "fully-fluent"
+    },
+    {
+      "code": "fr",
+      "language": "French",
+      "fluency": "conversational"
+    },
+    {
+      "code": "pt",
+      "language": "Portuguese",
+      "fluency": "conversational"
+    },
+    {
+      "code": "es",
+      "language": "Spanish",
+      "fluency": "fully-fluent"
+    }
+  ],
+  "personalityTraitsResults": {
+    "groups": [
+      {
+        "id": "extraversion",
+        "order": 0,
+        "median": 3.5,
+        "stddev": 0.57
+      },
+      {
+        "id": "openness-to-experience",
+        "order": 1,
+        "median": 3.41,
+        "stddev": 0.6
+      },
+      {
+        "id": "conscientiousness",
+        "order": 2,
+        "median": 3.44,
+        "stddev": 0.56
+      },
+      {
+        "id": "agreeableness",
+        "order": 3,
+        "median": 2.94,
+        "stddev": 0.58
+      },
+      {
+        "id": "honesty-humility",
+        "order": 4,
+        "median": 3.19,
+        "stddev": 0.62
+      },
+      {
+        "id": "emotionality",
+        "order": 5,
+        "median": 3.43,
+        "stddev": 0.62
+      }
+    ],
+    "analyses": [
+      {
+        "groupId": "openness-to-experience",
+        "analysis": 3.69
+      },
+      {
+        "groupId": "honesty-humility",
+        "analysis": 3.69
+      },
+      {
+        "groupId": "agreeableness",
+        "analysis": 3.75
+      },
+      {
+        "groupId": "altruism",
+        "analysis": 4
+      },
+      {
+        "groupId": "conscientiousness",
+        "analysis": 3.69
+      },
+      {
+        "groupId": "emotionality",
+        "analysis": 3.13
+      },
+      {
+        "groupId": "extraversion",
+        "analysis": 3.44
+      }
+    ]
+  },
+  "professionalCultureGenomeResults": {
+    "groups": [
+      {
+        "id": "1",
+        "nativeOrder": 1,
+        "text": {
+          "common": "Achievement-oriented"
+        },
+        "answer": "4",
+        "order": 0,
+        "median": 3.307087211,
+        "stddev": 0.7408654995
+      },
+      {
+        "id": "3",
+        "nativeOrder": 3,
+        "text": {
+          "common": "Adaptable"
+        },
+        "answer": "4",
+        "order": 1,
+        "median": 3.53455274,
+        "stddev": 0.6204672813
+      },
+      {
+        "id": "6",
+        "nativeOrder": 6,
+        "text": {
+          "common": "Analytical"
+        },
+        "answer": "4",
+        "order": 2,
+        "median": 3.390055005,
+        "stddev": 0.6916525511
+      },
+      {
+        "id": "7",
+        "nativeOrder": 7,
+        "text": {
+          "common": "Calm"
+        },
+        "answer": "4",
+        "order": 3,
+        "median": 3.220002337,
+        "stddev": 0.7320363351
+      },
+      {
+        "id": "8",
+        "nativeOrder": 8,
+        "text": {
+          "common": "Careful"
+        },
+        "answer": "4",
+        "order": 4,
+        "median": 3.297779509,
+        "stddev": 0.721817971
+      },
+      {
+        "id": "10",
+        "nativeOrder": 10,
+        "text": {
+          "common": "Customer-oriented"
+        },
+        "answer": "4",
+        "order": 5,
+        "median": 3.426673945,
+        "stddev": 0.7629528583
+      },
+      {
+        "id": "11",
+        "nativeOrder": 11,
+        "text": {
+          "common": "Decisive"
+        },
+        "answer": "4",
+        "order": 6,
+        "median": 3.280022884,
+        "stddev": 0.7333204925
+      },
+      {
+        "id": "12",
+        "nativeOrder": 12,
+        "text": {
+          "common": "Easygoing"
+        },
+        "answer": "4",
+        "order": 7,
+        "median": 3.418765284,
+        "stddev": 0.7478766839
+      },
+      {
+        "id": "14",
+        "nativeOrder": 14,
+        "text": {
+          "common": "Honest"
+        },
+        "answer": "4",
+        "order": 8,
+        "median": 3.849761837,
+        "stddev": 0.3852109863
+      },
+      {
+        "id": "16",
+        "nativeOrder": 16,
+        "text": {
+          "common": "Market-driven"
+        },
+        "answer": "4",
+        "order": 9,
+        "median": 2.704610857,
+        "stddev": 0.9381360182
+      },
+      {
+        "id": "17",
+        "nativeOrder": 17,
+        "text": {
+          "common": "People-oriented"
+        },
+        "answer": "4",
+        "order": 10,
+        "median": 3.323092158,
+        "stddev": 0.7719721827
+      },
+      {
+        "id": "18",
+        "nativeOrder": 18,
+        "text": {
+          "common": "Precise"
+        },
+        "answer": "4",
+        "order": 11,
+        "median": 3.202731585,
+        "stddev": 0.7136453554
+      },
+      {
+        "id": "19",
+        "nativeOrder": 19,
+        "text": {
+          "common": "Quick to take advantage of opportunities"
+        },
+        "answer": "4",
+        "order": 12,
+        "median": 3.155788266,
+        "stddev": 0.7910802406
+      },
+      {
+        "id": "21",
+        "nativeOrder": 21,
+        "text": {
+          "common": "Results-oriented"
+        },
+        "answer": "4",
+        "order": 13,
+        "median": 3.402746414,
+        "stddev": 0.6924228714
+      },
+      {
+        "id": "22",
+        "nativeOrder": 22,
+        "text": {
+          "common": "Rule-oriented"
+        },
+        "answer": "4",
+        "order": 14,
+        "median": 3.119940441,
+        "stddev": 0.8511788641
+      },
+      {
+        "id": "23",
+        "nativeOrder": 51,
+        "text": {
+          "common": "Supportive"
+        },
+        "answer": "4",
+        "order": 15,
+        "median": 3.521348496,
+        "stddev": 0.6202686763
+      },
+      {
+        "id": "24",
+        "nativeOrder": 23,
+        "text": {
+          "common": "Team-oriented"
+        },
+        "answer": "4",
+        "order": 16,
+        "median": 3.515253662,
+        "stddev": 0.6403773213
+      },
+      {
+        "id": "25",
+        "nativeOrder": 24,
+        "text": {
+          "common": "Tolerant"
+        },
+        "answer": "4",
+        "order": 17,
+        "median": 3.429954405,
+        "stddev": 0.6756940264
+      },
+      {
+        "id": "27",
+        "nativeOrder": 26,
+        "text": {
+          "common": "Conflict-resolution-oriented"
+        },
+        "answer": "4",
+        "order": 18,
+        "median": 3.101074538,
+        "stddev": 0.9032905675
+      },
+      {
+        "id": "28",
+        "nativeOrder": 27,
+        "text": {
+          "common": "Cooperative"
+        },
+        "answer": "4",
+        "order": 19,
+        "median": 3.637398991,
+        "stddev": 0.5441371579
+      },
+      {
+        "id": "29",
+        "nativeOrder": 28,
+        "text": {
+          "common": "Focused on professional growth"
+        },
+        "answer": "4",
+        "order": 20,
+        "median": 3.640229705,
+        "stddev": 0.5835093756
+      },
+      {
+        "id": "30",
+        "nativeOrder": 29,
+        "text": {
+          "common": "Quality-driven"
+        },
+        "answer": "4",
+        "order": 21,
+        "median": 3.622124519,
+        "stddev": 0.5685579656
+      },
+      {
+        "id": "31",
+        "nativeOrder": 52,
+        "text": {
+          "common": "Fast-moving"
+        },
+        "answer": "4",
+        "order": 22,
+        "median": 3.078259813,
+        "stddev": 0.7687488044
+      },
+      {
+        "id": "32",
+        "nativeOrder": 53,
+        "text": {
+          "common": "Hard-driving"
+        },
+        "answer": "4",
+        "order": 23,
+        "median": 2.843729747,
+        "stddev": 1.108178542
+      },
+      {
+        "id": "33",
+        "nativeOrder": 30,
+        "text": {
+          "common": "Highly ethical"
+        },
+        "answer": "4",
+        "order": 24,
+        "median": 3.627091571,
+        "stddev": 0.6464404497
+      },
+      {
+        "id": "34",
+        "nativeOrder": 31,
+        "text": {
+          "common": "Highly expectant for performance"
+        },
+        "answer": "4",
+        "order": 25,
+        "median": 3.490903614,
+        "stddev": 0.6463617196
+      },
+      {
+        "id": "35",
+        "nativeOrder": 32,
+        "text": {
+          "common": "Integrity-driven"
+        },
+        "answer": "4",
+        "order": 26,
+        "median": 3.754173109,
+        "stddev": 0.4849079849
+      },
+      {
+        "id": "37",
+        "nativeOrder": 34,
+        "text": {
+          "common": "Transparent with individual goals"
+        },
+        "answer": "4",
+        "order": 27,
+        "median": 3.090594345,
+        "stddev": 0.9397403977
+      },
+      {
+        "id": "38",
+        "nativeOrder": 35,
+        "text": {
+          "common": "Able to learn from mistakes"
+        },
+        "answer": "4",
+        "order": 28,
+        "median": 3.685785863,
+        "stddev": 0.5356724665
+      },
+      {
+        "id": "39",
+        "nativeOrder": 36,
+        "text": {
+          "common": "Listening to customers"
+        },
+        "answer": "4",
+        "order": 29,
+        "median": 3.684881005,
+        "stddev": 0.5685013891
+      },
+      {
+        "id": "41",
+        "nativeOrder": 37,
+        "text": {
+          "common": "Unhindered by many rules"
+        },
+        "answer": "4",
+        "order": 30,
+        "median": 2.395910707,
+        "stddev": 1.044083104
+      },
+      {
+        "id": "42",
+        "nativeOrder": 38,
+        "text": {
+          "common": "Detail-oriented"
+        },
+        "answer": "4",
+        "order": 31,
+        "median": 3.530555446,
+        "stddev": 0.6241323568
+      },
+      {
+        "id": "43",
+        "nativeOrder": 39,
+        "text": {
+          "common": "Predictable"
+        },
+        "answer": "4",
+        "order": 32,
+        "median": 2.931484545,
+        "stddev": 0.8854629428
+      },
+      {
+        "id": "44",
+        "nativeOrder": 40,
+        "text": {
+          "common": "Focused towards organizational goals over unit's goals"
+        },
+        "answer": "4",
+        "order": 33,
+        "median": 2.817963301,
+        "stddev": 0.9484849627
+      },
+      {
+        "id": "45",
+        "nativeOrder": 41,
+        "text": {
+          "common": "Respectful"
+        },
+        "answer": "4",
+        "order": 34,
+        "median": 3.862969241,
+        "stddev": 0.3800380304
+      },
+      {
+        "id": "48",
+        "nativeOrder": 44,
+        "text": {
+          "common": "Open with information"
+        },
+        "answer": "4",
+        "order": 35,
+        "median": 2.204781432,
+        "stddev": 1.247555541
+      },
+      {
+        "id": "49",
+        "nativeOrder": 45,
+        "text": {
+          "common": "Stable"
+        },
+        "answer": "4",
+        "order": 36,
+        "median": 3.373058016,
+        "stddev": 0.7308361333
+      },
+      {
+        "id": "50",
+        "nativeOrder": 46,
+        "text": {
+          "common": "Ready to claim responsibility"
+        },
+        "answer": "4",
+        "order": 37,
+        "median": 3.385036017,
+        "stddev": 0.729758287
+      },
+      {
+        "id": "51",
+        "nativeOrder": 47,
+        "text": {
+          "common": "Ready to take initiative"
+        },
+        "answer": "4",
+        "order": 38,
+        "median": 3.303996319,
+        "stddev": 0.7403525539
+      },
+      {
+        "id": "54",
+        "nativeOrder": 50,
+        "text": {
+          "common": "Team player"
+        },
+        "answer": "4",
+        "order": 39,
+        "median": 3.504892548,
+        "stddev": 0.6398516423
+      },
+      {
+        "id": "2",
+        "nativeOrder": 2,
+        "text": {
+          "common": "Action-oriented"
+        },
+        "answer": "3",
+        "order": 40,
+        "median": 3.182707783,
+        "stddev": 0.7414651075
+      },
+      {
+        "id": "4",
+        "nativeOrder": 4,
+        "text": {
+          "common": "Avoiding conflict"
+        },
+        "answer": "3",
+        "order": 41,
+        "median": 3.184795276,
+        "stddev": 0.8784443312
+      },
+      {
+        "id": "13",
+        "nativeOrder": 13,
+        "text": {
+          "common": "Fair"
+        },
+        "answer": "3",
+        "order": 42,
+        "median": 3.61264673,
+        "stddev": 0.6273839106
+      },
+      {
+        "id": "15",
+        "nativeOrder": 15,
+        "text": {
+          "common": "Innovative"
+        },
+        "answer": "3",
+        "order": 43,
+        "median": 3.391966471,
+        "stddev": 0.7194864422
+      },
+      {
+        "id": "20",
+        "nativeOrder": 20,
+        "text": {
+          "common": "Reflective"
+        },
+        "answer": "3",
+        "order": 44,
+        "median": 3.200198307,
+        "stddev": 0.7582734099
+      },
+      {
+        "id": "26",
+        "nativeOrder": 25,
+        "text": {
+          "common": "Willing to experiment"
+        },
+        "answer": "3",
+        "order": 45,
+        "median": 3.336304234,
+        "stddev": 0.7469585025
+      },
+      {
+        "id": "46",
+        "nativeOrder": 42,
+        "text": {
+          "common": "Risk-taker"
+        },
+        "answer": "3",
+        "order": 46,
+        "median": 2.843108659,
+        "stddev": 0.8711670703
+      },
+      {
+        "id": "47",
+        "nativeOrder": 43,
+        "text": {
+          "common": "Driven by security of employment"
+        },
+        "answer": "3",
+        "order": 47,
+        "median": 3.169801154,
+        "stddev": 0.8803406124
+      },
+      {
+        "id": "52",
+        "nativeOrder": 48,
+        "text": {
+          "common": "Urgent"
+        },
+        "answer": "3",
+        "order": 48,
+        "median": 2.606840978,
+        "stddev": 0.9817675335
+      },
+      {
+        "id": "53",
+        "nativeOrder": 49,
+        "text": {
+          "common": "Oriented towards acquiring knowledge over acquiring connections"
+        },
+        "answer": "3",
+        "order": 49,
+        "median": 2.07754721,
+        "stddev": 1.153373214
+      },
+      {
+        "id": "9",
+        "nativeOrder": 9,
+        "text": {
+          "common": "Competitive"
+        },
+        "answer": "2",
+        "order": 50,
+        "median": 2.983387237,
+        "stddev": 0.9488376744
+      },
+      {
+        "id": "40",
+        "nativeOrder": 54,
+        "text": {
+          "common": "Oriented towards making their numbers"
+        },
+        "answer": "2",
+        "order": 51,
+        "median": 3.194500771,
+        "stddev": 0.8527745846
+      },
+      {
+        "id": "5",
+        "nativeOrder": 5,
+        "text": {
+          "common": "Aggressive"
+        },
+        "answer": "1",
+        "order": 52,
+        "median": 0.8133620243,
+        "stddev": 0.8965000891
+      },
+      {
+        "id": "36",
+        "nativeOrder": 33,
+        "text": {
+          "common": "Confrontational"
+        },
+        "answer": "1",
+        "order": 53,
+        "median": 0.8046163721,
+        "stddev": 0.9958574145
+      }
+    ],
+    "analyses": [
+      {
+        "groupId": "1",
+        "analysis": 4
+      },
+      {
+        "groupId": "3",
+        "analysis": 4
+      },
+      {
+        "groupId": "6",
+        "analysis": 4
+      },
+      {
+        "groupId": "7",
+        "analysis": 4
+      },
+      {
+        "groupId": "8",
+        "analysis": 4
+      },
+      {
+        "groupId": "10",
+        "analysis": 4
+      },
+      {
+        "groupId": "11",
+        "analysis": 4
+      },
+      {
+        "groupId": "12",
+        "analysis": 4
+      },
+      {
+        "groupId": "14",
+        "analysis": 4
+      },
+      {
+        "groupId": "16",
+        "analysis": 4
+      },
+      {
+        "groupId": "17",
+        "analysis": 4
+      },
+      {
+        "groupId": "18",
+        "analysis": 4
+      },
+      {
+        "groupId": "19",
+        "analysis": 4
+      },
+      {
+        "groupId": "21",
+        "analysis": 4
+      },
+      {
+        "groupId": "22",
+        "analysis": 4
+      },
+      {
+        "groupId": "23",
+        "analysis": 4
+      },
+      {
+        "groupId": "24",
+        "analysis": 4
+      },
+      {
+        "groupId": "25",
+        "analysis": 4
+      },
+      {
+        "groupId": "27",
+        "analysis": 4
+      },
+      {
+        "groupId": "28",
+        "analysis": 4
+      },
+      {
+        "groupId": "29",
+        "analysis": 4
+      },
+      {
+        "groupId": "30",
+        "analysis": 4
+      },
+      {
+        "groupId": "31",
+        "analysis": 4
+      },
+      {
+        "groupId": "32",
+        "analysis": 4
+      },
+      {
+        "groupId": "33",
+        "analysis": 4
+      },
+      {
+        "groupId": "34",
+        "analysis": 4
+      },
+      {
+        "groupId": "35",
+        "analysis": 4
+      },
+      {
+        "groupId": "37",
+        "analysis": 4
+      },
+      {
+        "groupId": "38",
+        "analysis": 4
+      },
+      {
+        "groupId": "39",
+        "analysis": 4
+      },
+      {
+        "groupId": "41",
+        "analysis": 4
+      },
+      {
+        "groupId": "42",
+        "analysis": 4
+      },
+      {
+        "groupId": "43",
+        "analysis": 4
+      },
+      {
+        "groupId": "44",
+        "analysis": 4
+      },
+      {
+        "groupId": "45",
+        "analysis": 4
+      },
+      {
+        "groupId": "48",
+        "analysis": 4
+      },
+      {
+        "groupId": "49",
+        "analysis": 4
+      },
+      {
+        "groupId": "50",
+        "analysis": 4
+      },
+      {
+        "groupId": "51",
+        "analysis": 4
+      },
+      {
+        "groupId": "54",
+        "analysis": 4
+      },
+      {
+        "groupId": "2",
+        "analysis": 3
+      },
+      {
+        "groupId": "4",
+        "analysis": 3
+      },
+      {
+        "groupId": "13",
+        "analysis": 3
+      },
+      {
+        "groupId": "15",
+        "analysis": 3
+      },
+      {
+        "groupId": "20",
+        "analysis": 3
+      },
+      {
+        "groupId": "26",
+        "analysis": 3
+      },
+      {
+        "groupId": "46",
+        "analysis": 3
+      },
+      {
+        "groupId": "47",
+        "analysis": 3
+      },
+      {
+        "groupId": "52",
+        "analysis": 3
+      },
+      {
+        "groupId": "53",
+        "analysis": 3
+      },
+      {
+        "groupId": "9",
+        "analysis": 2
+      },
+      {
+        "groupId": "40",
+        "analysis": 2
+      },
+      {
+        "groupId": "5",
+        "analysis": 1
+      },
+      {
+        "groupId": "36",
+        "analysis": 1
+      }
+    ]
+  }
+}

@@ -1,3 +1,4 @@
+const fetchUrl = 'https://alishaso.github.io/sorianoalisha.json'; //'https://torre.bio/api/bios/sorianoalisha';
 const profileImgEl = document.querySelector('.profile-img');
 const userNameEl = document.querySelector('.user-name');
 const masteredSkillsDiv = document.querySelector('.mastered-skills');
@@ -5,12 +6,22 @@ const expertSkillsDiv = document.querySelector('.expert-skills');
 const proficientSkillsDiv = document.querySelector('.proficient-skills');
 const noviceSkillsDiv = document.querySelector('.novice-skills');
 const interestedSkillsDiv = document.querySelector('.interested-in-skills');
+let userInfo;
+let masteredSkillsList = [];
+let masterSkillBtns = [];
+let expertSkillsList = [];
+let expertSkillBtns = [];
+let proficientSkillsList = [];
+let proficientSkillBtns = [];
+let noviceSkillsList = [];
+let noviceSkillBtns = [];
+let interestedSkillsList = [];
+let interestedSkillBtns = [];
 
 function removeSpace(string) {
   if(/\s/g.test(string)) {
     string = string.split(/[ ]+/).join('-')
   }
-  // console.log(string)
   return string;
 }
 
@@ -43,28 +54,28 @@ function getUserSkills(userInfo) {
 function createSkillsButtons(skillsArr, category) {
   if(skillsArr.length > 0) {
     skillsArr.forEach(skill => {
-        let skillNoSpace = removeSpace(skill).toLowerCase();
-        let skillBtn = document.createElement('button');
-        skillBtn.textContent = skill;
-        skillBtn.setAttribute('id', skillNoSpace);
-        skillBtn.classList.add(`${category}-skill-btn`,'btn');
-        switch(category) {
-            case 'master':
-                masteredSkillsDiv.appendChild(skillBtn);
-                break;
-            case 'expert':
-                expertSkillsDiv.appendChild(skillBtn);
-                break;
-            case 'proficient':
-                proficientSkillsDiv.appendChild(skillBtn);
-                break;
-            case 'novice':
-                noviceSkillsDiv.appendChild(skillBtn);
-                break;
-            case 'no-experience-interested':
-                interestedSkillsDiv.appendChild(skillBtn);
-                break;
-            }
+      let skillNoSpace = removeSpace(skill).toLowerCase();
+      let skillBtn = document.createElement('button');
+      skillBtn.textContent = skill;
+      skillBtn.setAttribute('id', skillNoSpace);
+      skillBtn.classList.add(`${category}-skill-btn`,'btn');
+      switch(category) {
+        case 'master':
+          masteredSkillsDiv.appendChild(skillBtn);
+          break;
+        case 'expert':
+          expertSkillsDiv.appendChild(skillBtn);
+          break;
+        case 'proficient':
+          proficientSkillsDiv.appendChild(skillBtn);
+          break;
+        case 'novice':
+          noviceSkillsDiv.appendChild(skillBtn);
+          break;
+        case 'no-experience-interested':
+          interestedSkillsDiv.appendChild(skillBtn);
+          break;
+      }
       });
   }
   else {
@@ -88,8 +99,12 @@ function createSkillsButtons(skillsArr, category) {
   }
 }
 
-function btnAddEvent(){
+function btnAddEvent() {
+  masterSkillBtns.forEach(btn => btn.addEventListener('click', e => expandSkill(e, userInfo)));
   expertSkillBtns.forEach(btn => btn.addEventListener('click', e => expandSkill(e, userInfo)));
+  expertSkillBtns.forEach(btn => btn.addEventListener('click', e => expandSkill(e, userInfo)));
+  noviceSkillBtns.forEach(btn => btn.addEventListener('click', e => expandSkill(e, userInfo)));
+  interestedSkillBtns.forEach(btn => btn.addEventListener('click', e => expandSkill(e, userInfo)));
 }
 
 function closeModal(modal) {
@@ -143,11 +158,11 @@ function expandSkill(event, userInfoObj) {
   expertSkillsDiv.appendChild(modal);
 }
 
-fetch(' https://bio.torre.co/api/bios/sorianoalisha')
+fetch(fetchUrl)
 .then(response => response.json())
-.then(userInfo => {
-  // console.log(userInfo.name)
-  displayUserSkills(userInfo)
-
+.then(data => {
+  userInfo = data;
+  getUserSkills(userInfo);
+  btnAddEvent();
 })
 .catch(error => console.error(error));
