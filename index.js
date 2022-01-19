@@ -92,37 +92,46 @@ function btnAddEvent(){
   expertSkillBtns.forEach(btn => btn.addEventListener('click', e => expandSkill(e, userInfo)));
 }
 
+function closeModal(modal) {
+    modal.classList.remove('show');
+}
+
 function expandSkill(event, userInfoObj) {
   let modal = document.createElement('div');
+  modal.classList.add('modal', 'show');
   let skillName = addSpace(event.currentTarget.getAttribute('id'));
   if(skillName === 'Git') {
-      skillName = 'GIT';
+    skillName = 'GIT';
   }
   else if(skillName === 'Css3') {
-      skillName = 'CSS3';
+    skillName = 'CSS3';
   }
   else if(skillName === 'Html5') {
-      skillName = 'HTML5';
+    skillName = 'HTML5';
   }
   else if(skillName === 'Sql') {
-      skillName = 'SQL';
+    skillName = 'SQL';
   }
   else if(skillName === 'Mysql') {
-      skillName = 'MySQL';
+    skillName = 'MySQL';
   }
   else if(skillName === 'Typescript') {
-      skillName = 'TypeScript';
+    skillName = 'TypeScript';
   }
 
   userInfoObj.strengths.forEach(s => {
-      if(s.name == skillName) {
-          modal.innerHTML = `
-              <p>Skill</p>
-              <h2>${s.name}</h2>
-              <button id='close-modal'>X</button>
-              `;
-      }
-  })
+    if(s.name == skillName) {
+      modal.innerHTML = `
+        <p>Skill</p>
+        <h2>${s.name}</h2>
+        `;
+      let closeBtn = document.createElement('button');
+      closeBtn.setAttribute('id', 'close-modal');
+      closeBtn.textContent = 'X';
+      modal.appendChild(closeBtn);
+      closeBtn.addEventListener('click', e => closeModal(modal));
+    }
+  });
   expertSkillsDiv.appendChild(modal);
 }
 

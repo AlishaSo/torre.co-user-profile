@@ -5,6 +5,10 @@
 
   --btn-font-color: rgba(250, 250, 250, .75);
   --accent-text-color: #a6b611;
+  --btn-hover-bg-color: rgba(250, 250, 250, .5);
+  --modal-bg-color: rgba(166, 182, 17, .9);
+  --modal-close-bg-color: transparent;
+  --modal-close-hover-color: red;
 }
 
 *,
@@ -151,4 +155,37 @@ h2 {
   background: transparent;
   color: var(--btn-font-color);
   font-weight: 200;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--btn-hover-bg-color);
+}
+
+.modal {
+  display: none;
+}
+
+.modal.show {
+  display: unset;
+  position: absolute;
+  background-color: var(--modal-bg-color);
+  top: calc(100px + 10vh);
+  right: calc(100px + 5vw);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#close-modal {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: var(--modal-close-bg-color);
+}
+
+#close-modal:hover {
+  color: var(--modal-close-hover-color);
 }
