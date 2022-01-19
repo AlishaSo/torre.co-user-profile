@@ -4,7 +4,7 @@
   --h2-size: calc(.8rem + 1vw);
 
   --btn-font-color: rgba(250, 250, 250, .75);
-  --accent-text-color: #a6b611;
+  --accent-color: #a6b611;
   --btn-hover-bg-color: rgba(250, 250, 250, .5);
   --modal-bg-color: rgba(166, 182, 17, .9);
   --modal-close-bg-color: transparent;
@@ -46,7 +46,7 @@ h2 {
 }
 
 .accent-text {
-    color: var(--accent-text-color);
+    color: var(--accent-color);
 }
 
 header {
@@ -117,7 +117,7 @@ header {
 
 .btn {
   cursor: pointer;
-  border: 1px solid lightgray;
+  border: 1px solid var(--accent-color);
   border-radius: 50px;
   padding: .5em .75em;
   margin: .15em;
