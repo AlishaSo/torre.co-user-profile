@@ -24,7 +24,7 @@ body {
   color: white;
   background-color: black;
   position: relative;
-  padding: 2%;
+  padding: 4%;
 }
 
 h1 {
@@ -42,57 +42,57 @@ h2 {
 }
 
 .torre-title {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .accent-text {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo-and-company {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .torre-title {
-    margin-left: .25em;
+  margin-left: .25em;
 }
 
 .nav-btn {
-    cursor: pointer;
-    border: 0;
+  cursor: pointer;
+  border: 0;
   background: transparent;
   position: absolute;
 }
 
 .messages-btn {
-    background: url('images/Orion_messaging.png');
-    background-size: cover;
-    height: 40px;
-    width: 40px;
-    top: 36px;
-    right: 65px;
+  background: url('images/Orion_messaging.png');
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  top: 36px;
+  right: 65px;
 }
 
 .signal-btn {
-    background: url('images/Orion_cellular-signal.png');
-    background-size: cover;
-    height: 40px;
-    width: 40px;
-    top: 36px;
-    right: 10px;
+  background: url('images/Orion_cellular-signal.png');
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  top: 36px;
+  right: 10px;
 }
 
 .top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .profile-img {
@@ -115,6 +115,11 @@ header {
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
+.skills {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
 .btn {
   cursor: pointer;
   border: 1px solid var(--accent-color);
@@ -128,7 +133,7 @@ header {
 
 .btn:hover,
 .btn:focus {
-    background-color: var(--btn-hover-bg-color);
+  background-color: var(--btn-hover-bg-color);
 }
 
 .modal {
@@ -140,13 +145,13 @@ header {
   gap: 0 1em;
   grid-template: repeat(4, auto) / repeat(2, auto);
   grid-template-areas: 
-      's . . .'
-      'sName sName sName sName'
-      'r r w w';
+    's . . .'
+    'sName sName sName sName'
+    'r r w w';
   position: absolute;
   background-color: var(--modal-bg-color);
-  top: calc(100px + 10vh);
-  right: calc(100px + 5vw);
+  top: 50%;
+  right: 30%;
   padding: 10px;
   border-radius: 5px;
 }
@@ -166,20 +171,20 @@ header {
 }
 
 .modal + p {
-    grid-area: s;
-    margin-bottom: 0;
+  grid-area: s;
+  margin-bottom: 0;
 }
 
 .modal h2 {
-    font-size: 1.1rem;
-    grid-area: sName;
-    margin-top: -15px;
+  font-size: 1.1rem;
+  grid-area: sName;
+  margin-top: -15px;
 }
 
 .recommendations {
-    grid-area: r;
+  grid-area: r;
 }
 
 .rec-weight {
-    grid-area: w;
+  grid-area: w;
 }
