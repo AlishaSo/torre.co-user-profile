@@ -31,13 +31,13 @@ function getUserSkills(userInfo) {
       noviceSkillsList.push(strength.name);
     else if(strength.proficiency === 'no-experience-interested')
       interestedSkillsList.push(strength.name);
-});
+  });
 
-creatMasterSkillsButtons(masteredSkillsList, 'master');
-creatMasterSkillsButtons(expertSkillsList, 'expert');
-creatMasterSkillsButtons(proficientSkillsList, 'proficient');
-creatMasterSkillsButtons(noviceSkillsList, 'novice');
-creatMasterSkillsButtons(interestedSkillsList, 'no-experience-interested');
+  creatMasterSkillsButtons(masteredSkillsList, 'master');
+  creatMasterSkillsButtons(expertSkillsList, 'expert');
+  creatMasterSkillsButtons(proficientSkillsList, 'proficient');
+  creatMasterSkillsButtons(noviceSkillsList, 'novice');
+  creatMasterSkillsButtons(interestedSkillsList, 'no-experience-interested');
 }
 
 function createSkillsButtons(skillsArr, category) {
@@ -88,7 +88,42 @@ function createSkillsButtons(skillsArr, category) {
   }
 }
 
-function displayUserSkills() {
+function btnAddEvent(){
+  expertSkillBtns.forEach(btn => btn.addEventListener('click', e => expandSkill(e, userInfo)));
+}
+
+function expandSkill(event, userInfoObj) {
+  let modal = document.createElement('div');
+  let skillName = addSpace(event.currentTarget.getAttribute('id'));
+  if(skillName === 'Git') {
+      skillName = 'GIT';
+  }
+  else if(skillName === 'Css3') {
+      skillName = 'CSS3';
+  }
+  else if(skillName === 'Html5') {
+      skillName = 'HTML5';
+  }
+  else if(skillName === 'Sql') {
+      skillName = 'SQL';
+  }
+  else if(skillName === 'Mysql') {
+      skillName = 'MySQL';
+  }
+  else if(skillName === 'Typescript') {
+      skillName = 'TypeScript';
+  }
+
+  userInfoObj.strengths.forEach(s => {
+      if(s.name == skillName) {
+          modal.innerHTML = `
+              <p>Skill</p>
+              <h2>${s.name}</h2>
+              <button id='close-modal'>X</button>
+              `;
+      }
+  })
+  expertSkillsDiv.appendChild(modal);
 }
 
 fetch(' https://bio.torre.co/api/bios/sorianoalisha')
